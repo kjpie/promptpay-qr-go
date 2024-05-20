@@ -2,6 +2,8 @@
   GoLang code created by Jirawat Harnsiriwatanakit https://github.com/kazekim
 */
 
+// version 1.0.1 by kjpie
+
 package promptpayqr
 
 import "github.com/skip2/go-qrcode"
