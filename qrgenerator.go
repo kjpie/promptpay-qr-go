@@ -18,6 +18,8 @@ func NewQRCodeGenerator() *QRCodeGenerator {
 	return &QRCodeGenerator{}
 }
 
+//change v1.0.1
+
 // GeneratePayload generates a QR code payload for a target with an optional amount.
 func (q *QRCodeGenerator) GeneratePayload(target string, amount *string) string {
 	// Placeholder implementation; replace with actual payload generation logic.
