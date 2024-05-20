@@ -13,8 +13,8 @@ import (
 // QRCodeGenerator is a struct that provides methods to generate QR code payloads.
 type QRCodeGenerator struct{}
 
-// New creates a new instance of QRCodeGenerator.
-func New() *QRCodeGenerator {
+// NewQRCodeGenerator creates a new instance of QRCodeGenerator.
+func NewQRCodeGenerator() *QRCodeGenerator {
 	return &QRCodeGenerator{}
 }
 
